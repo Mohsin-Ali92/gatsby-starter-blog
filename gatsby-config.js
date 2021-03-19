@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "mystarterblog",
+        name: "My Blog",
         short_name: "myblog",
         start_url: "/",
         background_color: "#6b37bf",
@@ -32,6 +32,7 @@ module.exports = {
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
         crossOrigin: `use-credentials`,
+        purpose: "maskable",
       },
     },
     `gatsby-plugin-gatsby-cloud`,
