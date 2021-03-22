@@ -20,7 +20,7 @@ const IndexPage = () => (
       loading="lazy"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      style={{ marginBottom: `1.50rem` }}
     />
     <p>
       Websites today, including the one you are using now, are written in HTML,
