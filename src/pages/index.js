@@ -1,6 +1,6 @@
 import * as React from "react"
 
-//import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,7 +12,7 @@ const IndexPage = () => (
       The cross-platform framework offers the most compelling web development
       experience
     </h2>
-    {/* <StaticImage
+    <StaticImage
       src="../images/my-blog1.jpg"
       width={900}
       height={500}
@@ -21,12 +21,6 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    /> */}
-
-    <img
-      src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
-      loading="lazy"
-      alt="Hello World"
     />
     <p>
       Websites today, including the one you are using now, are written in HTML,
@@ -92,7 +86,7 @@ const IndexPage = () => (
       supported language. But how did we get here in the first place? How did
       HTML become such a mainstay in today's thriving internet?
     </p>
-    {/* <StaticImage
+    <StaticImage
       src="../images/my-blog2.jpg"
       width={900}
       height={500}
@@ -101,11 +95,6 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    /> */}
-    <img
-      src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
-      loading="lazy"
-      alt="Hello World"
     />
     <h3>The Dawn of a New Era</h3>
     <p>
@@ -180,7 +169,7 @@ const IndexPage = () => (
       wouldn’t fight you on that point. But when your designers are chasing a
       certain look, the CSS can get pretty complicated.
     </p>
-    {/* <StaticImage
+    <StaticImage
       src="../images/my-blog3.jpg"
       width={900}
       height={500}
@@ -189,11 +178,6 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    /> */}
-    <img
-      src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
-      loading="lazy"
-      alt="Hello World"
     />
     <p>
       <h3>Learning the languages</h3> In order to create a simple website, you
@@ -244,7 +228,7 @@ const IndexPage = () => (
       weird and, at least in the case of drawing to the canvas directly, not
       very performant. But let’s dig into this a little bit more.
     </p>
-    {/* <StaticImage
+    <StaticImage
       src="../images/my-blog4.jpg"
       width={900}
       height={500}
@@ -253,11 +237,6 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    /> */}
-    <img
-      src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
-      loading="lazy"
-      alt="Hello World"
     />
     <p>
       <h3>Drawing into a canvas instead of a document</h3> The first point is
