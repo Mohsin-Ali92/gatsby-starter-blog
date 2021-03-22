@@ -16,11 +16,11 @@ const IndexPage = () => (
       src="../images/my-blog1.jpg"
       width={900}
       height={500}
-      quality={95}
+      //quality={95}
       loading="lazy"
-      formats={["AUTO", "WEBP", "AVIF"]}
+      //formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.50rem`, marginTop: `1.45rem` }}
+      style={{ marginBottom: `1.45rem` }}
     />
     <p>
       Websites today, including the one you are using now, are written in HTML,
