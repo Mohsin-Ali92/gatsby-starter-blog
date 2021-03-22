@@ -12,7 +12,7 @@ const IndexPage = () => (
       The cross-platform framework offers the most compelling web development
       experience
     </h2>
-    <amp-img
+    {/* <StaticImage
       src="../images/my-blog1.jpg"
       width={900}
       height={500}
@@ -21,6 +21,12 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
+    /> */}
+
+    <amp-img
+      src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
+      loading="lazy"
+      alt="Hello World"
     />
     <p>
       Websites today, including the one you are using now, are written in HTML,
