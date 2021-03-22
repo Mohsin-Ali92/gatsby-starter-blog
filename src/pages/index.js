@@ -12,7 +12,7 @@ const IndexPage = () => (
       The cross-platform framework offers the most compelling web development
       experience
     </h2>
-    <StaticImage
+    <amp-img
       src="../images/my-blog1.jpg"
       width={900}
       height={500}
