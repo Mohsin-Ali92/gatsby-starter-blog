@@ -23,7 +23,7 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     /> */}
 
-    <amp-img
+    <img
       src="https://miro.medium.com/max/6293/0*YLqNrhW_NgI3MpGE"
       loading="lazy"
       alt="Hello World"
