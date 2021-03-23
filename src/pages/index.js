@@ -12,7 +12,7 @@ const IndexPage = () => (
       The cross-platform framework offers the most compelling web development
       experience
     </h2>
-    {/* <StaticImage
+    <StaticImage
       src="../images/my-blog1.jpg"
       width={900}
       height={500}
@@ -21,7 +21,7 @@ const IndexPage = () => (
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    /> */}
+    />
     <p>
       Websites today, including the one you are using now, are written in HTML,
       JavaScript, and CSS. You probably read that and think to yourself well,
